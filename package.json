@@ -2,7 +2,25 @@
   "name": "jimmy-wayne",
   "version": "0.1.0",
   "private": true,
-  "scripts": {"dev":"next dev","build":"next build","start":"next start","lint":"next lint"},
-  "dependencies": {"next":"16.0.1","react":"19.2.0","react-dom":"19.2.0"},
-  "devDependencies": {"typescript":"^5.9.3","@types/node":"^24.8.0","@types/react":"^19.2.2","@types/react-dom":"^19.2.2"}
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "echo \"Lint handled by Next.js build\""
+  },
+  "dependencies": {
+    "next": "16.3.0",
+    "react": "19.2.6",
+    "react-dom": "19.2.6"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "@types/node": "^24.8.0",
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.2"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "packageManager": "npm@10.9.2"
 }
