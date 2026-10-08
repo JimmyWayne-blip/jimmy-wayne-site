@@ -1,0 +1,30 @@
+import type { Metadata } from 'next';
+import './globals.css';
+import Link from 'next/link';
+
+export const metadata: Metadata = {
+  title: 'jimmy wayne — mountain race mentorship',
+  description: 'Race-specific mentorship for iconic mountain ultras, grounded in firsthand experience.',
+  metadataBase: new URL('https://jimmywayne.run'),
+  alternates: { canonical: '/' },
+};
+
+export default function RootLayout({ children }: { children: React.ReactNode }) {
+  return <html lang="en"><body>
+    <header className="site-header">
+      <Link className="wordmark" href="/">jimmy wayne</Link>
+      <nav>
+        <Link href="/races">Races</Link>
+        <Link href="/about">About</Link>
+        <Link href="/field-notes">Field Notes</Link>
+        <Link className="nav-cta" href="/reserve">Reserve a Session</Link>
+      </nav>
+    </header>
+    <main>{children}</main>
+    <footer className="site-footer">
+      <div><div className="footer-mark">jimmy wayne</div><p>Mountain race mentorship.</p></div>
+      <div className="footer-links"><Link href="/races">Races</Link><Link href="/about">About</Link><Link href="/field-notes">Field Notes</Link><Link href="/reserve">Reserve</Link></div>
+      <div className="footer-bottom"><span>Experience, passed forward.</span><span>© {new Date().getFullYear()} Jimmy Wayne</span></div>
+    </footer>
+  </body></html>;
+}
