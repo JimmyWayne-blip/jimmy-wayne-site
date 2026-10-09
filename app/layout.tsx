@@ -12,7 +12,10 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return <html lang="en"><body>
     <header className="site-header">
-      <Link className="wordmark" href="/">jimmy wayne</Link>
+      <Link className="brand-lockup" href="/">
+  <img className="brand-avatar" src="/jimmy-wayne-avatar.jpg" alt="Jimmy Wayne" />
+  <span className="wordmark">jimmy wayne</span>
+</Link>
       <nav>
         <Link href="/races">Races</Link>
         <Link href="/about">About</Link>
