@@ -17,13 +17,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Link href="/races">Races</Link>
         <Link href="/about">About</Link>
         <Link href="/field-notes">Field Notes</Link>
-        <Link className="nav-cta" href="/reserve">Reserve a Session</Link>
+        <Link className="nav-cta" href="https://calendly.com/jelam26-2/jimmywayne">Reserve a Session</Link>
       </nav>
     </header>
     <main>{children}</main>
     <footer className="site-footer">
       <div><div className="footer-mark">jimmy wayne</div><p>Mountain race mentorship.</p></div>
-      <div className="footer-links"><Link href="/races">Races</Link><Link href="/about">About</Link><Link href="/field-notes">Field Notes</Link><Link href="/reserve">Reserve</Link></div>
+      <div className="footer-links"><Link href="/races">Races</Link><Link href="/about">About</Link><Link href="/field-notes">Field Notes</Link><Link href="https://calendly.com/jelam26-2/jimmywayne">Reserve</Link></div>
       <div className="footer-bottom"><span>Experience, passed forward.</span><span>© {new Date().getFullYear()} Jimmy Wayne</span></div>
     </footer>
   </body></html>;
