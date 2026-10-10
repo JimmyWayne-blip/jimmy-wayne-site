@@ -95,9 +95,11 @@
 }
 
 /* Dark Granite theme */
-html[data-theme="dark"] body {
-  background: #171A19;
-  color: #EAE7DF;
+html[data-theme="dark"] .site-header nav a.nav-cta {
+  background: #EAE7DF;
+  color: #171A19;
+  border-color: #EAE7DF;
+  opacity: 1;
 }
 
 html[data-theme="dark"] .site-header,
