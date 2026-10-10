@@ -34,8 +34,8 @@ export default function Races() {
 </h1>
 
         <p className="body-large">
-          Each session focuses on a specific race and what&apos;s most
-          important to set yourself up for success.
+          Each session focuses on your specific race and what&apos;s most
+          important to for your success.
         </p>
       </section>
 
