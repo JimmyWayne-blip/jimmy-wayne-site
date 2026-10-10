@@ -181,3 +181,21 @@ html[data-theme="dark"] .race-map-heading p {
   outline: 2px solid #B8734A;
   outline-offset: 3px;
 }
+
+/* Dark Granite: homepage hero contrast */
+html[data-theme="dark"] .hero,
+html[data-theme="dark"] .hero-copy,
+html[data-theme="dark"] .hero-content {
+  background-color: #171A19 !important;
+  color: #EAE7DF !important;
+}
+
+html[data-theme="dark"] .hero h1,
+html[data-theme="dark"] .hero p,
+html[data-theme="dark"] .hero .body-large {
+  color: #EAE7DF !important;
+}
+
+html[data-theme="dark"] .hero .label {
+  color: #B8734A !important;
+}
