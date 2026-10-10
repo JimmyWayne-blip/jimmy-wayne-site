@@ -50,7 +50,7 @@ export default function Races() {
               href={"/races/" + slug}
             >
               <div>
-                <span className="label">Jimmy Wayne</span>
+                
                 <h3>{name}</h3>
               </div>
               <span className="arrow">Explore race →</span>
