@@ -93,3 +93,89 @@
     height: 390px;
   }
 }
+
+/* Dark Granite theme */
+html[data-theme="dark"] body {
+  background: #171A19;
+  color: #EAE7DF;
+}
+
+html[data-theme="dark"] .site-header,
+html[data-theme="dark"] .site-footer,
+html[data-theme="dark"] .page-hero {
+  background: #171A19;
+  color: #EAE7DF;
+}
+
+html[data-theme="dark"] .section,
+html[data-theme="dark"] .fog {
+  background: #222725;
+  color: #EAE7DF;
+}
+
+html[data-theme="dark"] h1,
+html[data-theme="dark"] h2,
+html[data-theme="dark"] h3,
+html[data-theme="dark"] p,
+html[data-theme="dark"] .wordmark {
+  color: #EAE7DF;
+}
+
+html[data-theme="dark"] .race-card {
+  background: #222725;
+  color: #EAE7DF;
+  border-color: #414642;
+}
+
+html[data-theme="dark"] .race-card h3,
+html[data-theme="dark"] .race-card .label,
+html[data-theme="dark"] .race-card .arrow {
+  color: #B8734A;
+}
+
+html[data-theme="dark"] .site-header a,
+html[data-theme="dark"] .site-footer a {
+  color: #EAE7DF;
+}
+
+html[data-theme="dark"] .nav-cta {
+  background: #EAE7DF;
+  color: #171A19;
+  border-color: #EAE7DF;
+}
+
+html[data-theme="dark"] .theme-toggle {
+  color: #EAE7DF;
+  background: #222725;
+  border-color: #414642;
+}
+
+html[data-theme="dark"] .race-map-heading p {
+  color: #EAE7DF;
+}
+
+.theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  margin-left: 8px;
+  border: 1px solid #D9DAD6;
+  border-radius: 50%;
+  background: transparent;
+  color: #1A1D1E;
+  font-size: 21px;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.theme-toggle:hover {
+  border-color: #B8734A;
+  color: #B8734A;
+}
+
+.theme-toggle:focus-visible {
+  outline: 2px solid #B8734A;
+  outline-offset: 3px;
+}
