@@ -35,7 +35,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     </Link>
     <ThemeToggle />
   </nav>
-</>
+</header>
 
     <main>{children}</main>
     <footer className="site-footer">
