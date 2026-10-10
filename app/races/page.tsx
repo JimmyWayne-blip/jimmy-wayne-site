@@ -24,11 +24,15 @@ export default function Races() {
     <>
       <section className="page-hero">
         <span className="label">Race Mentorship</span>
-        <h1>
-          Firsthand knowledge and triumphs
-          <br />
-          at the world&apos;s classic ultras.
-        </h1>
+        
+<h1>
+  Firsthand knowledge and
+  <br />
+  triumphs at the world's
+  <br />
+  classic ultras.
+</h1>
+
         <p className="body-large">
           Each session focuses on a specific race and what&apos;s most
           important to set yourself up for success.
