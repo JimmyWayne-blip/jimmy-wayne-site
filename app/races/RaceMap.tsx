@@ -103,9 +103,12 @@ function FitRaceBounds() {
 
   useEffect(() => {
     map.fitBounds(
-      races.map((race) => race.position),
-      { padding: [28, 28] }
-    );
+  races.map((race) => race.position),
+  {
+    padding: [16, 16],
+    maxZoom: 4,
+  }
+);
   }, [map]);
 
   return null;
