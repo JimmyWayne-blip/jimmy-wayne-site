@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import './globals.css';
 import Link from 'next/link';
+import ThemeToggle from "./ThemeToggle";
 
 export const metadata: Metadata = {
   title: 'jimmy wayne — mountain race mentorship',
@@ -21,6 +22,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Link href="/about">About</Link>
         <Link href="/field-notes">Field Notes</Link>
         <Link className="nav-cta" href="https://calendly.com/jelam26-2/jimmywayne">Reserve a Session</Link>
+        <nav>
+  <Link href="/races">Races</Link>
+  <Link href="/about">About</Link>
+  <Link href="/field-notes">Field Notes</Link>
+  <Link className="nav-cta" href="https://calendly.com/jelam26-2/jimmywayne">Reserve a Session</Link>
+  <ThemeToggle />
+</nav>
       </nav>
     </header>
     <main>{children}</main>
